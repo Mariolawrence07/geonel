@@ -1,0 +1,48 @@
+@font-face {
+    font-family: optima;
+    src: url(../fonts/Optima\ Medium.ttf);
+}
+.header {
+    display: flex;
+    width: 100%;
+    padding-top: calc(40rem * 0.0625);
+    padding-bottom: calc(20rem * 0.0625);
+    flex-wrap: nowrap;
+    border-bottom: 5px solid rgba(24,148,209, 0.5);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    flex-wrap: nowrap;
+}
+
+.header-left img {
+    height: calc(55.52rem * 0.0625);
+    width: auto;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    flex-wrap: nowrap;
+}
+
+.link-wrapper {
+    padding-left: 3.5rem;
+}
+
+.link-wrapper a {
+    font-family: optima;
+    font-size: calc(22rem * 0.0625);
+}

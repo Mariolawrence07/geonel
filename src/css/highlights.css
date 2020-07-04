@@ -1,0 +1,166 @@
+.highlights-wrapper {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.highlights-container {
+    display: flex;
+    flex-direction: column;
+    padding: calc(154rem * 0.0625) 0rem;
+}
+
+.highlight-one {
+    display: flex;
+    justify-content: flex-start;
+    overflow: visible;
+}
+
+.highlight-two {
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.globe {
+    position: relative;
+    height: calc(649rem * 0.0625);
+    width: calc(649rem * 0.0625);
+    background-image: url('../images/globe_mono.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.globe img {
+    position: absolute;
+    width: auto;
+    z-index: 2;
+    transition: all ease 200ms;
+}
+
+.globe span {
+    position: absolute;
+    font-size: 2rem;
+    color: #939598;
+    z-index: 1;
+}
+
+.core-main {
+    height: calc(296.33rem * 0.0625);
+    transform: translate(170px, 177px);
+}
+
+.commitment {
+    height: calc(191.09rem * 0.0625);
+    transform: translate(191px, -64px);
+}
+
+.commitment:hover {
+    height: calc(250.09rem * 0.0625);
+    transform: translate(161px, -82px);
+    z-index: 3;
+}
+
+.integrity {
+    height: calc(247.34rem * 0.0625);
+    transform: translate(383px, 18px);
+}
+
+.integrity:hover {
+    height: calc(347.34rem * 0.0625);
+    transform: translate(386px, -58px);
+    z-index: 3;
+}
+
+.diligence {
+    height: calc(247.63rem * 0.0625);
+    transform: translate(12px, 15px);
+}
+
+.diligence:hover {
+    height: calc(347.34rem * 0.0625);
+    transform: translate(-90px, -58px);
+    z-index: 3;
+}
+
+.accountability {
+    height: calc(262.96rem * 0.0625);
+    transform: translate(520px, 192px);
+}
+
+.accountability:hover {
+    height: calc(362.96rem * 0.0625);
+    transform: translate(520px, 140px);
+    z-index: 3;
+}
+
+.excellence {
+    height: calc(247.61rem * 0.0625);
+    transform: translate(383px, 388px);
+}
+
+.excellence:hover {
+    height: calc(347.61rem * 0.0625);
+    transform: translate(383px, 388px);
+    z-index: 3;
+}
+
+.innovation {
+    height: calc(191.11rem * 0.0625);
+    transform: translate(184px, 520px);
+}
+
+.innovation:hover {
+    height: calc(291.11rem * 0.0625);
+    transform: translate(114px, 520px);
+    z-index: 3;
+}
+
+.customer-focus {
+    height: calc(247.36rem * 0.0625);
+    transform: translate(-6px, 395px);
+}
+
+.customer-focus:hover {
+    height: calc(347.36rem * 0.0625);
+    transform: translate(-46px, 355px);
+    z-index: 3;
+}
+
+.core-logo {
+    height: calc(78.57rem * 0.0625);
+    transform: translate(-85px, 291px);
+}
+
+.line-diligence {
+    transform: translate(163px, 192px) rotate(45deg);
+}
+
+.line-commitment {
+    transform: translate(268px, 152px) rotate(90deg);
+}
+
+.line-integrity {
+    transform: translate(341px, 196px) rotate(-45deg);
+}
+
+.line-accountability {
+    transform: translate(410px, 290px);
+}
+
+.line-excellence {
+    transform: translate(371px, 402px) rotate(45deg);
+}
+
+.line-innovation {
+    transform: translate(266px, 444px) rotate(90deg);
+}
+
+.line-customer-focus {
+    transform: translate(158px, 375px) rotate(-45deg);
+}
+
+.highlight-two img {
+    height: calc(650rem * 0.0625);
+    width: auto;
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Humanst521 Lt BT;
+    src: url(../fonts/Humanst521\ Lt\ BT\ Light.ttf);
+}
+
+.caption-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(706rem * 0.0625);
+}
+
+.caption-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.caption-text h1 {
+    font-family: Humanst521 Lt BT;
+    font-size: calc(60rem * 0.0625);
+    margin-bottom: 6rem;
+}
+
+.caption-img img {
+    height: calc(420rem * 0.0625);
+    width: auto
+}

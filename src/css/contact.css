@@ -1,0 +1,116 @@
+@font-face {
+    font-family: optima;
+    src: url(../fonts/Optima\ Medium.ttf);
+}
+
+.contact-wrapper {
+    height: 100vh;
+}
+
+.theme-light {
+    background-image: url(../images/contact_backdrop_light.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.theme-light h3, .theme-light p {
+    color: #000000
+}
+
+.theme-dark {
+    background-image: url(../images/contact_backdrop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.theme-dark h3, .theme-dark p, .theme-dark a {
+    color: #FFFFFF;
+}
+
+.theme-dark .find-us-btn {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.form-wrapper {
+    padding-top: calc(150rem * 0.0625);
+    padding-bottom: calc(100 * 0.0625);
+    font-family: optima;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-content-text1 {
+    font-size: calc(33rem * 0.0625);
+    line-height: calc(47rem * 0.0625);
+}
+
+.form-content-text2 {
+    font-size: calc(20rem * 0.0625);
+    line-height: calc(29rem * 0.0625);
+    margin-bottom: calc(53rem * 0.0625);;
+}
+
+.find-us-btn {
+    height: calc(60rem * 0.0625);
+    width: calc(170rem * 0.0625);
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+.find-us-btn:focus, .find-us-btn:hover {
+    outline: none;
+}
+
+.form-content-right {
+    width: 40%
+}
+
+.form-input-wrapper {
+    width: 100%;
+    padding-bottom: calc(15rem * 0.0625);
+}
+
+input, textarea {
+    background-color: #D4D4D4;
+    box-shadow: none;
+    width: 100%;
+    border: none;
+    padding: calc(10rem * 0.0625) calc(28rem * 0.0625);;
+}
+
+textarea {
+    height: calc(252rem * 0.0625);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #4F4F4F;
+}
+
+::placeholder {
+    color: #4F4F4F;
+}
+
+.submit-btn-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: auto
+}
+
+.submit-btn {
+    height: calc(40rem * 0.0625);
+    width: calc(130rem * 0.0625);
+    background-color: #A0B542;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+}

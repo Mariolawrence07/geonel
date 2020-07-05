@@ -5,10 +5,12 @@
 .header {
     display: flex;
     width: 100%;
+    background-color: transparent;
     padding-top: calc(40rem * 0.0625);
     padding-bottom: calc(20rem * 0.0625);
     flex-wrap: nowrap;
     border-bottom: 5px solid rgba(24,148,209, 0.5);
+    font-family: optima;
 }
 
 .header-container {
@@ -43,6 +45,6 @@
 }
 
 .link-wrapper a {
-    font-family: optima;
+    
     font-size: calc(22rem * 0.0625);
 }

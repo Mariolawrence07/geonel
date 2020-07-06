@@ -34,14 +34,16 @@
 
 .form-wrapper {
     padding-top: calc(150rem * 0.0625);
-    padding-bottom: calc(100 * 0.0625);
     font-family: optima;
+    height: auto;
 }
 
 .form-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    height: auto;
 }
 
 .form-content-text1 {
@@ -113,4 +115,30 @@ input:focus, textarea:focus {
     color: #FFFFFF;
     border: none;
     border-radius: 50px;
+}
+
+@media (max-width: 1024px) {
+    .form-wrapper {
+        padding-top: 2.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .form-content-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .form-content-text1, .form-content-text2 {
+        text-align: center;
+    }
+    .form-content-right {
+        padding-top: 1rem;
+        width: 100%;
+    }
+    textarea {
+        height: 10rem;
+    }
+    .submit-btn-wrapper {
+        justify-content: center;
+    }
 }

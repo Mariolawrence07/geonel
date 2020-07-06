@@ -3,3 +3,9 @@
     width: 100%;
     background-color: #E8E8E8;
 }
+
+@media (max-width: 1024px) {
+    .divider {
+        height: 2.5rem;
+    }
+}

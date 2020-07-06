@@ -48,3 +48,16 @@
     
     font-size: calc(22rem * 0.0625);
 }
+
+@media (max-width: 1024px) {
+    .header-left img {
+        height: calc(30rem * 0.0625);
+        width: auto;
+    }
+    .link-wrapper {
+        padding-left: 0.5rem;
+    }
+    .link-wrapper a {
+        font-size: calc(12rem * 0.0625);
+    }
+}

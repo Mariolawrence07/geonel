@@ -12,6 +12,7 @@
 
 .caption-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -23,7 +24,27 @@
     margin-bottom: 6rem;
 }
 
+.caption-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .caption-img img {
     height: calc(420rem * 0.0625);
     width: auto
+}
+
+@media (max-width: 1024px) {
+    .caption-wrapper {
+        height: calc(556rem * 0.0625);
+    }
+    .caption-text h1 {
+        font-size: 2rem;
+    }
+    .caption-img {
+        width: 100%;
+    }
+    .caption-img img {
+        height: 15rem;
+    }
 }

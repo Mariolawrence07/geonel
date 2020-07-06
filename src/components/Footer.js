@@ -15,7 +15,7 @@ import footer_cash from '../images/footer_cash.svg'
 function Footer () {
     return (
         <div className='footer-wrapper'>
-            <div className='container'>
+            <div className='container footer-container'>
                 <div className='footer-content-left'>
                     <h3>The need of<br />working with us</h3>
                     <p>ipsumlorem ipsumlorem ipsumlorem </p>
@@ -70,7 +70,7 @@ function Footer () {
                     <div className='footer-bottom-left'>
                         <img src={footer_logo} alt='' />
                     </div>
-                    <div className='footer-bottom-left'>
+                    <div className='footer-bottom-right'>
                         <img src={footer_cash} alt='' />
                     </div>
                 </div>
